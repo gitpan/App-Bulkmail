@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               App-Bulkmail
-version:            0.01
+version:            0.02
 abstract:           Simple but flexible bulkmailer
 author:
     - Peter Makholm <peter@makholm.net>
@@ -11,6 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
+    Any::Moose:   0
     File::Slurp:  0
     Template:     0
     Test::More:   0

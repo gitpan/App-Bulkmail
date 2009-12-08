@@ -17,6 +17,7 @@ WriteMakefile(
         'Template'   => 0,
         'File::Slurp' => 0,
         'YAML'        => 0,
+        'Any::Moose'  => 0,
     },
     META_MERGE          => {
         resources => {
